@@ -12,12 +12,18 @@ body {
   width: 100%;
   max-width: 964px;
   position: relative;
+  
+  border: 10px solid green;
 }
 
 #carousel {
+  display: flex;
+  justify-content: center;
   overflow: auto;
   scroll-behavior: smooth;
   scrollbar-width: none;
+  
+  border: 10px solid red;
 }
 
 #carousel::-webkit-scrollbar {
@@ -57,11 +63,15 @@ body {
   grid-auto-flow: column;
   margin: auto;
   box-sizing: border-box;
+
+  border: 10px solid gold;
+
 }
 
 .item {
   width: 180px;
   height: 180px;
   background: green;
+
 }
 
